@@ -15,6 +15,7 @@ function Contact({cartCount}) {
             </a>
           </div>
         </div>
+        
         <div className="col-xl-6 col-lg-7">
           <nav className="header__menu">
             <ul>
