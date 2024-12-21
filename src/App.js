@@ -28,7 +28,6 @@ function App() {
   const removeFromCart = (id) => {
     setCart(cart.filter(item => item.id !== id));
   };
-
   const updateQuantity = (id, quantity) => {
     if (quantity < 1) return; // Prevent setting quantity to 0 or negative
     setCart(cart.map(item =>
